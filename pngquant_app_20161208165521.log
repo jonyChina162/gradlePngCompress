@@ -1,0 +1,9 @@
+Failed! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-hdpi/.DS_Store
+Failed! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxhdpi/.DS_Store
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxhdpi/ic_launcher.png] [7718]-->[2688], 65.172325% saved!
+Failed! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxxhdpi/.DS_Store
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png] [10486]-->[3831], 63.465572% saved!
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a2.png] [458095]-->[153827], 66.42028% saved!
+Skipped! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a2_app.png
+Skipped! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a3.png
+Complete! succeed [3], failed [3], skipped [2]

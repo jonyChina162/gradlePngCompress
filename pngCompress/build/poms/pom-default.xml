@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.jony.compress.png</groupId>
+  <artifactId>pngcompress</artifactId>
+  <version>1.0.3</version>
+  <name>New Android Market Packer Modified From PACKER-NG-GRADLE</name>
+  <description>Android Multi Market Packer Gradle Plugin Modified From PACKER-NG-GRADLE</description>
+  <url></url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>pwrd</id>
+      <name>jonychina162</name>
+    </developer>
+  </developers>
+  <scm>
+    <url></url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>gradle</artifactId>
+      <version>2.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

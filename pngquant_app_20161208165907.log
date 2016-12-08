@@ -1,0 +1,16 @@
+Failed! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-hdpi/.DS_Store
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-hdpi/ic_launcher.png] [3418]-->[1384], 59.508484% saved!
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-mdpi/ic_launcher.png] [2206]-->[902], 59.111515% saved!
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xhdpi/ic_launcher.png] [4842]-->[1728], 64.31227% saved!
+Failed! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxhdpi/.DS_Store
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxhdpi/ic_launcher.png] [7718]-->[2688], 65.172325% saved!
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxhdpi/ic_launcher_app.png] [2688]-->[2375], 11.644345% saved!
+Failed! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxxhdpi/.DS_Store
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png] [10486]-->[3831], 63.465572% saved!
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/res/mipmap-xxxhdpi/ic_launcher_app.png] [3831]-->[3487], 8.979379% saved!
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a1.png] [838]-->[210], 74.94033% saved!
+Skipped! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a1_app.png
+Succeed! [/Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a2.png] [458095]-->[153827], 66.42028% saved!
+Skipped! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a2_app.png
+Skipped! /Users/heart19901126/zhouli/workspace/groovy/PngCompressPlugin/app/src/main/assets/a3.png
+Complete! succeed [9], failed [3], skipped [3]

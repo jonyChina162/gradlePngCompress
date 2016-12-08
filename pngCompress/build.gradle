@@ -1,0 +1,13 @@
+apply plugin: 'groovy'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile localGroovy()
+    compile gradleApi()
+    compile 'com.android.tools.build:gradle:2.2.2'
+}
+
+apply from: rootProject.file('upload/gradle-mvn-push.gradle')
+apply from: rootProject.file('upload/java-artifacts.gradle')

@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+apply plugin: 'cn.jony.compress.png'
+
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "cn.jony.pngcompressplugin"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    testCompile 'junit:junit:4.12'
+}
+
+pngCompress {
+    // 文件最小大小，KB
+    minSize 5
+    // 黑名单
+    blackLists = []
+    // 需要压缩的文件夹，默认为空即可
+    targets[]
+    // 除了默认资源，需要额外压缩的文件夹
+    extPaths = ['app/src/main/assets']
+    // 压缩速度
+    speed = 3
+    // 压缩文件的后缀名，默认为.png，即直接覆盖原文件
+    outSuffix = '.png'
+}

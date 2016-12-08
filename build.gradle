@@ -1,0 +1,30 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        maven {
+            url "http://nexus.sys.wanmei.com/nexus/content/groups/android_public/"
+        }
+
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.2'
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
+        classpath 'cn.jony.compress.png:pngcompress:1.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+        maven {
+            url "http://nexus.sys.wanmei.com/nexus/content/groups/android_public/"
+        }
+
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
