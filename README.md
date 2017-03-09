@@ -36,4 +36,4 @@ pngCompress {
 日志包括三种标签（succeed，failed，filtered）其中filter的原因如下：1、文件名不以.png结尾；2、匹配到黑名单里；3、pngquant判断不需要压缩
 
 ## License
-Tinker is under the GPL3 license. See the [LICENSE](https://github.com/jonyChina162/gradlePngCompress/edit/master/LICENSE) file for details.
+This is under the GPL3 license. See the [LICENSE](https://github.com/jonyChina162/gradlePngCompress/edit/master/LICENSE) file for details.
